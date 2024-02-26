@@ -20,6 +20,7 @@ class Clubs:
 
     def removeClub(self, n: int) -> None:
         if num > len(clubs.list) or num < 0:
+            clear()
             print("Введено неверное число")
         else:
             self.list.pop(n - 1)
